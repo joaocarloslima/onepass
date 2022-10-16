@@ -2,6 +2,8 @@ package com.example.model;
 
 public class Acesso {
 
+    private int id;
+
     private String local;
     private String login;
     private String senha;
@@ -42,6 +44,14 @@ public class Acesso {
     @Override
     public String toString() {
         return "Acesso [local=" + local + ", login=" + login + ", senha=" + senha + "]";
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
 }
