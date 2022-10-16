@@ -12,7 +12,7 @@
     </padding>
    <children>
       <Label text="Digite a senha master" />
-      <PasswordField fx:id="senha" alignment="CENTER" maxWidth="200.0" prefHeight="25.0" prefWidth="200.0" />
+      <PasswordField fx:id="senha" alignment="CENTER" maxWidth="200.0" onAction="#logar" prefHeight="25.0" prefWidth="200.0" />
       <Button mnemonicParsing="false" onAction="#logar" text="Entrar" />
    </children>
 </VBox>
